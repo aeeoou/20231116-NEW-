@@ -1,0 +1,57 @@
+/* class 일 때 .abcd */
+/* id 일 때 #abcd */
+
+#container {
+    font-size: 70px;
+    text-align: center;
+    width: 800px;
+    height: 270px;
+    border: 15px solid rgb(255, 240, 145);
+    border-radius: 15px;
+    display: block;
+}
+
+#Today {
+    /* 현재 날짜 CSS */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 240, 145);
+}
+
+#Clock {
+    /* 현재 시간 CSS */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 220, 0);
+}
+
+#Button {
+    /* 시간 버튼 */
+    display: block;
+}
+
+#Stopwatch {
+    /* 스톱워치 */
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 145, 0);
+    text-align: center;
+    width: 800px;
+    height: 90px;
+    border: 15px solid rgb(255, 210, 125);
+    border-radius: 15px;
+    display: block;
+}
+
+#Stopwatch1 {
+    /* 스톱워치 시작 버튼 */
+    display: flex;
+}
+#Stopwatch2 {
+    /* 스톱워치 정지 버튼 */
+    padding: center;
+    display: block;
+}
+#Stopwatch3 {
+    /* 스톱워치 초기화 버튼 */
+    padding: center;
+    display: block;
+}

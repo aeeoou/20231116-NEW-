@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> 디지털 시계 2탄 </title>
+    <link href = "New Digitalclock.css" rel="stylesheet">                 <!--css를 불러올 때 'link'를-->
 </head>
 <body>
-    
+    <div id = "container">
+        <div id = "Today">
+            <!--현재 날짜-->
+        </div>
+        <div id = "Clock">
+            <!--현재 시간-->
+        </div>
+    </div>
+
+
+    <div id = "Button">
+        <!--시간 버튼-->
+        <button id = "Go"  > 시작 </button>
+        <button id = "Stop"> 정지 </button>   
+    </div>
+
+
+    <h1 id = "Stopwatch"> 00:00:00 </h1>
+        <!--스톱워치-->
+    <div>
+        <button id = "Stopwatch1" onclick = "startClock()"> 스톱워치 시작 </button>
+        <button id = "Stopwatch2" onclick = "stopClock()"> 스톱워치 정지 </button>
+        <button id = "Stopwatch3" onclick = "resetClock()"> 스톱워치 초기화 </button>
+    </div>
+
+    <script src = "New Digitalclock.js"></script>                         <!--js를 불러올 때 'script'를-->
+
 </body>
 </html>
+
+
+
+
+
+<!--
+    1. 에디터 : Visual Studio Code
+    2. 언어 : HTML, CSS, JavaScript
+    3. 포인트
+    - document.getElementByld()
+    - document.getSelector()
+    - new Date()
+    - setInterval()
+    - clearInterval() 
+-->
+
+<!-- 
+    [프로젝트 01] 디지털 시계를 만들자
+    Date 객체의 메서드를 사용하여 '연도와 월, 일, 요일' 로 나누고 시간 정보도 '오전, 오후, 시, 분, 초' 등으로 나누어 화면에 출력한다.
+-->
+
+<!--
+    [미리 생각]
+    날짜 정보에서 연도와 월, 일을 가져오려면 어떻게?
+    시간 정보에서 시와 분, 초를 가져오려면 어떻게?
+    1초마다 시간이 바뀌면서 표시되려면 어떻게? 
+-->
